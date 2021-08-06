@@ -1,0 +1,72 @@
+@import './global-styles.css';
+
+body{
+  background-color: var(--bg-color);
+}
+
+.darkmode-check-label {
+  color: var(--darkmode-check-label-color)
+}
+
+.chat-container{
+  transform: translate(0%, 2%);
+  height: 90vh;
+  
+}
+
+.message-container{
+  position: relative;
+  height: 90vh;
+  background-color: var(--chat-container-bg);
+}
+
+.roomdata-container{
+  background-color: var(--roomdata-container-bg);
+}
+.message-input-container{
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  margin:1%;
+}
+
+.action-btn{
+  background-color:var(--btn-color);
+  color:var(--btn-text-color);
+  border-color: transparent !important;
+}
+
+.roomname-heading{
+  color:var(--roomname-heading);
+  text-align: center;
+  padding: 14px
+}
+
+.users-heading{
+  color:var(--users-heading);
+  text-align: center;
+  padding: 14px
+}
+
+.users-list{
+  color:var(--users-list)
+}
+
+.message-snippet{
+  width: 40%;
+  background-color: var(--message-snippet-bg);
+  padding: 2%;
+  margin: 3%;
+}
+
+.message-snippet-username{
+  color:var(--message-snippet-username);
+}
+.message-snippet-time{
+  font-size:15px;
+  margin-left: 10px;
+  color:var(--message-snippet-time);
+}
+.message-snippet-data{
+  color:var(--message-snippet-data);
+}

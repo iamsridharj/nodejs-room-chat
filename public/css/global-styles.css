@@ -1,0 +1,66 @@
+:root{
+  --bg-color: #dee2ff;
+  --darkmode-check-label-color: black;
+  --btn-color: #8e9aaf;
+  --btn-text-color: white;
+  --chat-container-bg:#feeafa;
+  --roomdata-container-bg:#9a8c98;
+  --roomname-heading:#b5838d;
+  --users-heading:#b5838d;
+  --users-list:#6f6f6f;
+  --message-snippet-bg:#b5838d;
+  --message-snippet-username:white;
+  --message-snippet-time:#e1d2d2;
+  --message-snippet-data:white;
+}
+:root.light{
+  --bg-color: #dee2ff;
+  --darkmode-check-label-color: black;
+  --btn-color: #8e9aaf;
+  --btn-text-color: black;
+  --chat-container-bg:#feeafa;
+  --roomdata-container-bg:#efd3d7;
+  --roomname-heading:#b5838d;
+  --users-heading:#b5838d;
+  --users-list:#6f6f6f;
+  --message-snippet-bg:#b5838d;
+  --message-snippet-username:white;
+  --message-snippet-time:#e1d2d2;
+  --message-snippet-data:white;
+}
+:root.dark {
+  --bg-color: #22223b;
+  --darkmode-check-label-color: white;
+  --btn-color: #9a8c98  ;
+  --btn-text-color: white;
+  --chat-container-bg:#4a4e69;
+  --roomdata-container-bg:#b5838d;
+  --roomname-heading:white;
+  --users-heading:white;
+  --users-list:white;
+  --message-snippet-bg:#fff1e6;
+  --message-snippet-username:#3d405b;
+  --message-snippet-time:#8e9aaf;
+  --message-snippet-data:#3d405b;
+}
+
+.float-right{
+  float:right;
+}
+
+.text-right{
+  text-align:right;
+}
+.text-center{
+  text-align:center;
+}
+
+
+.darkmode-switch{
+  padding:10px;
+}
+
+.full-width{
+  width:100%;
+}
+

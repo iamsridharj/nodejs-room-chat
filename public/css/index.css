@@ -1,0 +1,45 @@
+@import './global-styles.css';
+
+body{
+  background-color: var(--bg-color);
+}
+
+.darkmode-check-label {
+  color: var(--darkmode-check-label-color)
+}
+
+.login-container{
+  transform: translate(0%, 50%);
+}
+
+.login-container-img{
+  width: 100%;
+  height: auto;
+}
+
+
+.login-container-form{
+  background-color:white;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+
+}
+
+.login-btn{
+  width:40%;
+  display:grid;
+  margin:auto;
+  background-color:var(--btn-color);
+  color:var(--btn-text-color);
+}
+
+.login-container-header{
+  margin-top:10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .login-container-header{
+    margin-top:0%;
+  }
+}

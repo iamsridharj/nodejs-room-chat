@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/index.css" >
+  <title>Document</title>
+</head>
+<body>
+  <!-- Switch -->
+
+  <div class="form-check full-width darkmode-switch">
+    <div class="float-right">
+      <input class="form-check-input" type="checkbox" onchange="onDarkModeSelect(this)" id="darkModeCheck" >
+      <label class="form-check-label darkmode-check-label" for="flexCheckDefault">
+        Dark Mode
+      </label>
+    </div>
+  </div>
+
+  <!-- Container -->
+  <div class="container login-container">
+    <div class="row">
+      <!-- login container bg -->
+      <div class="col-sm-4 login-container-bg">
+        <img 
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/90dd2cbd-1823-4215-9fcf-89e106ea7096/dc0itbu-dd24f83a-f66c-4bab-8b2a-2e36a1b2ec1d.png/v1/fill/w_894,h_894,strp/space__flat_design__by_medhybnlz_dc0itbu-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYwMSIsInBhdGgiOiJcL2ZcLzkwZGQyY2JkLTE4MjMtNDIxNS05ZmNmLTg5ZTEwNmVhNzA5NlwvZGMwaXRidS1kZDI0ZjgzYS1mNjZjLTRiYWItOGIyYS0yZTM2YTFiMmVjMWQucG5nIiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.vTsBxHpzKIGeb0_cKgZcKKWhBII88VLEd9cjkA8b_aQ"
+        class="login-container-img"
+        />
+      </div>
+      <!-- login container forms -->
+      <div class="col-sm-8 login-container-form">
+        <h5 class="text-center login-container-header">
+          Join Box Room!
+        </h5>
+        <form action="/chat.html">
+          <div class="mb-3">
+            <label for="userName" class="form-label">User Name</label>
+            <input type="text" class="form-control" id="userName" name="userName" placeholder="User Name" required>
+          </div>
+          <div class="mb-3">
+            <label for="roomName" class="form-label">Room Name</label>
+            <input type="text" class="form-control" id="roomName" name="roomName" placeholder="Room Name" required>
+          </div>
+          <button class="btn login-btn" onclick="onLoginSubmit()">Join Room</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="/js/index.js"></script>
+  <script src="/js/common.js"></script>
+</body>
+</html>
