@@ -1,0 +1,2 @@
+store the room and messages in mongodb
+authorization for users

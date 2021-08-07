@@ -20,6 +20,11 @@ body{
   background-color: var(--chat-container-bg);
 }
 
+#message-list-container{
+  height: 81vh;
+  overflow: auto;
+}
+
 .roomdata-container{
   background-color: var(--roomdata-container-bg);
 }
